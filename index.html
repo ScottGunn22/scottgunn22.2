@@ -1,20 +1,185 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <style>
-            h1 {text-align: center;}
-            p {text-align: center;}
-            div {text-align: center;}
-        </style>
-    </head>
-<body style="background-color:#141d2b"></body>
-<center><a href="https://www.youtube.com/embed/JH0Ujtj_Fm8?controls=0
-" target="_blank"><img src="https://yt3.ggpht.com/7e9ubpttvJhCKNdv-3o3TGOHhIIpQrM39tyhGiQwTAzlPFOsBapGzGk9IMfEs3jGLUQYjdT48is=s176-c-k-c0x00ffffff-no-rj" 
-alt="Keyboard ASMR" width="240" height="180" border="10" /></a></center>
-    <h1 style="font-family:Courier; color: white">Nothing to see here...</h1>
-    <p style="font-family:Courier; color: white">1337</p>
-   <div>
-       
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sx0tts resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <style>
+        body {
+            background-color: #141d2b;
+            color: #a4b1cd;
+            font-family: 'Courier New', monospace;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        h1, h2, h3, p {
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        h3, p {
+            font-size: 16px;
+            line-height: 1.4;
+        }
+        
+        .blinking-cursor {
+            font-weight: 100;
+            font-size: 24px;
+            color: #0f0;
+            -webkit-animation: blink 1s linear infinite;
+            animation: blink 1s linear infinite;
+        }
+        
+        @keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        @-webkit-keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        hr {
+            border: 1px solid #0f0;
+            margin-bottom: 20px;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .work-history, .education, .skills, .certifications {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .job, .degree, .skill, .certification {
+            margin: 5px 0;
+        }
+
+        .job-title, .degree-name, .skill-name, .certification-name {
+            font-weight: bold;
+        }
+
+        .job-date, .degree-date, .skill-date, .certification-date {
+            font-size: 14px;
+        }
+        
+        .social-media {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .social-link {
+            color: #0f0;
+            margin: 0 10px;
+            font-size: 40px;
+            text-decoration: none;
+        }
+
+        .social-link:hover {
+            color: #0ff;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Scott Gonzalez</h1>
+        <h2>Penetration Tester</h2>
+        <h3>Email: scott@sx0tt.com</h3>
+        <p>Address: 108 S Mount Prospect Rd,</p> 
+        <p>Mount Prospect IL 60056</p>
+        <p>Phone: (312) 536-2346</p>
     </div>
-</body>
-</html></div>
+    <hr>
+    <div class="section">
+        <h2>Work History<span class="blinking-cursor">_</span></h2>
+        <div class="work-history">
+            <div class="job">
+                <p><span class="job-title">Technical Sales Engineer</span> - <span class="job-company">Hack The Box</span></p>
+                <p class="job-date">Jan 2022 - Current</p>
+                <p>-Provide technical training to sales team members and customers on the use and</p>
+                <p>implementation of the company's cyber security training products and services.</p>
+                <p>-Conducted presentations at leading trade shows, conferences and industry events to assist</p>
+                <p>individuals in the industry with understanding the best training solutions to meet their goals</p>
+            </div>
+            <div class="job">
+                <p><span class="job-title">Security Apprentice</span> - <span class="job-company">Evolve Security Academy</span></p>
+                <p class="job-date">Aug 2021 - Jan 2022</p>
+                <p>-Led live web Application Vulnerability Assessment on non-profit organization based on</p>
+                <p>OWASP standards. Project involved scoping, creating and delivering a 10-page report that</p>
+                <p>included an executive summary, detailed findings and recommendations.</p>
+            </div>
+            <div class="job">
+                <p><span class="job-title">Bartender</span> - <span class="job-company">Kaiser Tiger</span></p>
+                <p class="job-date">May 2021 - Jan 2022</p>
+                <p>-Organized bar inventory and storage procedures to keep stock within optimal levels and meet</p>
+                <p>expected customer demands</p>
+                <p>-Maintained secure cash drawers, promptly resolving discrepancies in daily totals.</p>
+            </div>
+            <div class="job">
+                <p><span class="job-title">Assistant General Manager</span> - <span class="job-company">Land and Sea Dept.</span></p>
+                <p class="job-date">May 2019 - Jul 2021</p>
+                <p>-Maintained well-controlled business inventory with minimal losses by enforcing solid monitoring and management structures.</p>
+                <p>-Mentored and motivated team members to achieve challenging business and individual goals.</p>
+                <p>-Managed employee reviews, training, schedules and contract negotiations.</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="section">
+        <h2>Education</h2>
+        <div class="education">
+            <div class="degree">
+                <p><span class="degree-name">HS Diploma</span></p>
+                <p class="degree-date">Walter Payton College Prep, 2000-2004</p>
+            </div> 
+            <div class="degree">   
+                <p><span class="degree-name">Evolve Security Certified Professional</span></p>
+                <p class="degree-date">Evolve Security Academy, 2021-2022</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="section">
+        <h2>Skills</h2>
+        <div class="skills">
+            <p>Penetration Testing, Vulnerability Assessment, Network Security, Web Application Security, Ethical Hacking, Python, Metasploit, Burp Suite, Wireshark, Kali Linux</p>
+        </div>
+        <br>
+        <hr>
+    <div class="certification">
+            <h2>Certifications</h2>
+                <p>eJPT (eLearnSecurity Junior Penetration Tester)</p>
+                <p>ESCP (Evolve Security Certified Professional)</p>
+        </div>
+        <hr>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/sx0tt/" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/ScottGunn" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="https://twitter.com/sx0tt1337" target="_blank" class="social-link"><i class="fab fa-twitter"></i></a>
+        </div>
+    </body>
+    </html>
